@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Full_review-ZAAFOURI-Mahmoud</title>
+        <link rel = "stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <header>
+            <h1><img src="HOMEPNG.png" alt="Home"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form id="main-form" name="mainForm" onsubmit="return false">
+
+                    <div>
+                        <label for="FirstName">First name:</label><br>
+                        <input type="text" id="fname" required>
+                    </div><br>
+
+                    <div>
+                        <label for="LastName">Last name:</label><br>
+                        <input type="text" id="lname" required>
+                    </div><br>
+
+                    <div>
+                        <label for="EmailAddress">Email:</label><br>
+                        <input type="email" id="email" required>
+                    </div><br>
+
+                    <div>
+                        <label for="Address">Address:</label><br>
+                        <input type="text" id="Address" required>
+                    </div><br>
+
+                    <div>
+                        <label for="City">City:</label><br>
+                        <input type="text" id="City" required>
+                    </div><br>
+
+                    <div>
+                        <label for="Province">Province:</label><br>
+                        <input type="text" id="Province" required>
+                    </div><br>
+
+                    <div class="Options">
+                        <p>Please select your membership:</p>
+
+                        <input type="radio" id="Premium"  name="mem" value="Premium Membership" checked>
+                        <label for="Premium">Premium Membership</label><br>
+
+                        <input type="radio" id="Standard" name="mem" value="Standard Membership">
+                        <label for="Standard">Standard Membership</label><br>
+
+                        <input type="radio" id="Basic" name="mem" value="Basic Membership">
+                        <label for="Basic">Basic Membership</label>
+                    </div>
+                <br>
+
+                <button type="submit" onclick="userForm()">Send</button>
+                <button type="reset" onclick="window.location='index.html';">Reset</button>
+
+            </form>
+            <br><hr>
+
+            <div id="output">
+            </div>
+
+        </main>
+
+        <footer>
+
+            <p>
+                ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - ZAAFOURI Mahmoud
+            </p>
+
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

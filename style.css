@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    margin:0 15% 0 15%;
+
+}
+
+header{
+    background-color: #e49f9f;
+    margin: 20px 0;
+    padding: 10px 10px;
+}
+
+header h1{
+    text-align: center;
+
+}
+
+
+header a {
+    text-decoration: none;
+    color: #ed001c;
+    font-size: 20px
+    
+}
+
+header a:hover{
+    color: #f1b8ff;
+}
+
+main{
+    background-color: #f1b8ff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 20px
+}
+
+main button{
+    background-color:#e49f9f;
+    color:#ed001c;
+    cursor: pointer;
+    width:120px;
+    height:30px;
+    font-size: 20px
+
+}
+
+main button:hover{
+   color: #f1b8ff
+}
+
+
+footer{
+    background-color:#e49f9f;
+    color: #002205;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
